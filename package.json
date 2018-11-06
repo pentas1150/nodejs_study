@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/pentas1150/nodejs_study#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
   }
 }
