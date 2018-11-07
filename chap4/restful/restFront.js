@@ -25,7 +25,7 @@ function getUser(){
                             console.error(xhr.responseText);
                         }
                     };
-                    xhr.open('PUT', '/users' + key);
+                    xhr.open('PUT', '/users/' + key);
                     xhr.setRequestHeader('Content-Type', 'application/json');
                     xhr.send(JSON.stringify({ name: name }));
                 });
@@ -41,7 +41,7 @@ function getUser(){
                             console.error(xhr.responseText);
                         }
                     };
-                    xhr.open('DELETE', '/users' + key);
+                    xhr.open('DELETE', '/users/' + key);
                     xhr.send();
                 });
                 userDiv.appendChild(span);
